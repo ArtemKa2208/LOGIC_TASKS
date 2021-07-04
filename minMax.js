@@ -1,4 +1,5 @@
 let array = [-7,8,12,10,1,3,-8];
+
 function getMinMax(array){
       let min = array[0];
       let max = array[0];
@@ -8,6 +9,7 @@ function getMinMax(array){
       }
       return [min,max];
 }
+
 let [min,max] = getMinMax(array);
 console.log(min);
 console.log(max);
