@@ -6,8 +6,8 @@ const sarah = {
       }
 }
     
-function printJobName({name,job:{name: job_name,hiringDate},}) {
-      console.log(job_name);
+function printJobName({job:{name}}) {
+      console.log(name);
 }
     
 printJobName(sarah);
