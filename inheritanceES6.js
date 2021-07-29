@@ -1,4 +1,4 @@
-class User{
+class User {
       constructor(name,age){
             this.name = name,
             this.age = age
@@ -7,7 +7,7 @@ class User{
             console.log(this.name);
       }
 }
-class Admin extends User{
+class Admin extends User {
       constructor(name,age,role){
             super(name,age);
             this.role = role;
